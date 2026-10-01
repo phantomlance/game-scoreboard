@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+client/dist/
+client/dist-cvm/
+server/dist/
+*.tsbuildinfo
+client/.tsbuildinfo.client
+server/.tsbuildinfo.server
+
+# Databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+
+# Runtime / platform
+.space-build/
+.space-build-cvm/
+.harness/
+.bun-cache/
+audits/
+.previews/
+
+# OS
+.DS_Store
+Thumbs.db
